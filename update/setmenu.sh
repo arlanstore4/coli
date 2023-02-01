@@ -32,7 +32,7 @@ echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━�
 echo -e "\E[44;1;39m                ⇱ ARLANSTORE ⇲                \E[0m"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e ""
-echo -e " $blu✘$ORANGE Script By  $NC : FranataSTORE"
+echo -e " $blu✘$ORANGE Script By  $NC : ARLANSTORE"
 echo -e " $blu✘$ORANGE Exp Script $NC : Unlimitid"
 echo -e " $blu✘$ORANGE Version  $NC   : Latest Version"
 echo -e ""
