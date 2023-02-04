@@ -26,7 +26,7 @@ PURPLE='\033[0;35m'
 CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # EXP
-Exp=$(curl -sS https://arlanstore.github.io/izin | grep $MYIP | awk '{print $3}')
+Exp=$(curl -sS https://arlanstore.github.io/vip/izin | grep $MYIP | awk '{print $3}')
 # INFO SERVER 
 ISP=$(curl -s ipinfo.io/org | cut -d " " -f 2-10 )
 CITY=$(curl -s ipinfo.io/city )
@@ -72,7 +72,7 @@ echo -e " $blu 14)$NC CEK V2RAY "
 echo -e " $blu 15)$NC EDIT PATCH V2RAY "
 echo -e " $blu 16)$NC EXIT                                                        "
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
-echo -e "\E[44;1;39m           ⇱ SCRIPT BY ARLANSTORE ⇲            \E[0m"
+echo -e "\E[44;1;39m           ⇱ SCRIPT BY ARLANSTORE ⇲             \E[0m"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 read -p "Select From Options [ 1 - 13 ] : " menu
 case $menu in
